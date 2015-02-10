@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Menu-MaterialDemo</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">你好世界!</string>
+    <string name="title_activity_menu">菜单</string>
+    <string name="action_ordered">已点</string>
+    <string name="title_activity_item_view">详情</string>
+    <string name="action_share">分享</string>
+
+</resources>

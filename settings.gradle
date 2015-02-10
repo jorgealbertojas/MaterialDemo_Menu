@@ -1,0 +1,4 @@
+include ':app'
+include ':libs:MaterialDesign'
+include ':libs:MaterialDrawerIndecator'
+include ':libs:MaterialIconPack'

@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/mActionBarStyle</item>
+        <item name="actionMenuTextColor">@color/background_material_light</item>
+    </style>
+
+    <style name="ToolBarTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="mActionBarStyle" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/material_deep_teal_500</item>
+        <item name="titleTextStyle">@style/mTitleTextStyle</item>
+
+    </style>
+    <style name="mTitleTextStyle"
+           parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            >
+        <item name="android:textColor">@color/background_material_light</item>
+    </style>
+
+
+
+    <!--=========fading actionbar========-->
+    <style name="Widget" />
+
+    <style name="Widget.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    </style>
+
+    <style name="Widget.Light" />
+
+    <style name="Widget.Light.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+    </style>
+
+    <style name="Widget.ActionBar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.Light.ActionBar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+</resources>

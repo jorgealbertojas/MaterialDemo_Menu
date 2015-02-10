@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <android.support.v7.widget.CardView android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+            >
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="10dp"
+                >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="特色" android:textSize="25dp"
+                      android:textStyle="bold" android:textColor="@color/material_deep_teal_500"
+                    />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/highlighted_text_material_light"
+                    android:text="       在新年这是一个必备的菜。鱼象征着繁荣和盈余(年年有鱼)。除夕这一天对华人来说是极为重要的。这一天人们准备除旧迎新，吃团圆饭。家人的团聚往往令一家之主在精神上得到安慰与满足，老人家眼看儿孙满堂，一家大小共叙天伦，过去的关怀与抚养子女所付出的心血总算没有白费，这是何等的幸福。而年轻一辈，也正可以借此机会向父母的养育之恩表达感激之情。"
+
+                    />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+            >
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="10dp"
+                >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="价值" android:textSize="25dp"
+                      android:textStyle="bold" android:textColor="@color/material_deep_teal_500"
+                    />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:textSize="20dp"
+                      android:textColor="@color/highlighted_text_material_light"
+                      android:text="       鲫鱼——有益气健脾、利 水消肿、清热解毒、通络下乳等功能。腹水患者用鲜鲫鱼与赤小豆共煮汤服食有疗效。用鲜活鲫鱼与猪蹄同煨，连汤食用，可治产妇少乳。鲫鱼油有利于心血管功能，还可降低血液粘度，促进血液循环。
+       鲤鱼——有健脾开胃、利尿消肿、止咳平喘、安胎通乳、清热解毒等功能。鲤鱼与冬瓜、葱白煮汤服食，治肾炎水肿。大鲤鱼留鳞去肠杂煨熟分服之，治黄疸。用活鲤鱼、猪 蹄煲汤服食治产妇少乳。鲤鱼与川贝末少许煮汤服用，治咳嗽气喘。
+       鲢鱼——有温中益 气、暖胃、滋润肌肤等功能，是温中补气养生食品。
+       青鱼——有补气 养胃、化湿利水、祛风除烦等功能。其所含锌硒等微量元素有助于抗癌。
+       黑鱼——有补 脾利水、去瘀生新、清热祛风、补肝益肾等功能。黑鱼与生姜红枣煮食对治疗肺结核有辅助作用。黑鱼与红糖炖服可治肾炎。产妇食清蒸黑鱼可催乳补血。
+       墨鱼——有 滋肝肾、补气血、清胃去热、养血、明目、通经、安胎、利产、止血、催乳等功能。
+       草鱼——有暖 胃、平肝祛风等功能，是温中补虚的养生食品。"
+
+                    />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

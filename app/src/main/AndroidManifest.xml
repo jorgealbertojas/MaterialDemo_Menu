@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.Github.ShinChven.materialdemomenu.app"
+          xmlns:tools="http://schemas.android.com/tools"
+        >
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            tools:replace="android:icon"
+            >
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name">
+        </activity>
+
+        <activity
+                android:name="com.Github.ShinChven.materialdemomenu.menu.MenuActivity"
+                android:label="@string/title_activity_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.Github.ShinChven.materialdemomenu.menu.ItemViewActivity"
+                android:label="@string/title_activity_item_view"
+                android:parentActivityName="com.Github.ShinChven.materialdemomenu.menu.MenuActivity"
+                android:theme="@style/TranslucentAppTheme.TranslucentActionBar"
+                >
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.Github.ShinChven.materialdemomenu.menu.MenuActivity"/>
+        </activity>
+    </application>
+
+</manifest>
